@@ -1,0 +1,14 @@
+#include<iostream>
+int main()
+{
+	int key;
+	scanf("%d", &key);
+	if(key == 123456)
+	{
+		printf("注册成功");
+	}
+	else
+	{
+		printf("注册失败");
+	}
+}

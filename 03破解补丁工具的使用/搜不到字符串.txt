@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+	char str[] = {D7, A2, B2, E1, CA, A7, B0, DC, 00};//注册失败
+	printf(str);
+}
