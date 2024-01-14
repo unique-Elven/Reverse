@@ -316,7 +316,22 @@ namespace AheadLib
 using namespace AheadLib;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+DWORD WINAPI ThreadProc(_In_ LPVOID lpParameter)
+{
+	byte byteRead = 0;
+	while (1)
+	{
+		ReadProcessMemory((HANDLE)-1,(LPVOID)0x004010A9,&byteRead,1,NULL);
+		if (byteRead==0x55)
+		{
+			byte writeBytes[] = {0x90,0x90, 0x90, 0x90, 0x90, 0x90};
+			WriteProcessMemory((HANDLE)-1, (LPVOID)0x004010FD, writeBytes, 6, NULL);
+			break;
+		}
+	}
+	MessageBoxA(NULL,"unique-elven","Elven",NULL);
+	return TRUE;
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 入口函数
@@ -324,7 +339,8 @@ BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
 {
 	if (dwReason == DLL_PROCESS_ATTACH)
 	{
-		::MessageBoxA(0, "今天的作业来了\n\n根据我提供的劫持补丁模板\n\n给此模板增加代码，实现劫持补丁\n\n", "恭喜你领到作业一份", 0);
+		//::MessageBoxA(0, "今天的作业来了\n\n根据我提供的劫持补丁模板\n\n给此模板增加代码，实现劫持补丁\n\n", "恭喜你领到作业一份", 0);
+		CreateThread(NULL,NULL,ThreadProc,NULL,NULL,NULL);
 		DisableThreadLibraryCalls(hModule);
 
 		return Load();
