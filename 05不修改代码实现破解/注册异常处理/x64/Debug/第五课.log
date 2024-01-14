@@ -1,0 +1,7 @@
+﻿  FileName.cpp
+C:\Users\asus\Desktop\滴水\第五课\FileName.cpp(4,48): error C2039: "Eip": 不是 "_CONTEXT" 的成员
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(4203,54): message : 参见“_CONTEXT”的声明
+C:\Users\asus\Desktop\滴水\第五课\FileName.cpp(4,2): error C3861: “printf”: 找不到标识符
+C:\Users\asus\Desktop\滴水\第五课\FileName.cpp(5,9): error C2065: “EXCEPINFO_EXECUTE_HANDLER”: 未声明的标识符
+C:\Users\asus\Desktop\滴水\第五课\FileName.cpp(10,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\asus\Desktop\滴水\第五课\FileName.cpp(10,12): error C2059: 语法错误:“常数”

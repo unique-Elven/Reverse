@@ -1,0 +1,12 @@
+﻿  main.c
+C:\Users\asus\Desktop\滴水\book\main.c(72,20): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\asus\Desktop\滴水\book\main.c(76,3): warning C4013: “exit”未定义；假设外部返回 int
+C:\Users\asus\Desktop\滴水\book\main.c(136,10): warning C4477: “printf”: 格式字符串“%f”需要类型“double”的参数，但可变参数 1 拥有了类型“char *”
+C:\Users\asus\Desktop\滴水\book\main.c(136,50): warning C4474: printf: 格式字符串中传递的参数太多
+C:\Users\asus\Desktop\滴水\book\main.c(136,50): message : 占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+C:\Users\asus\Desktop\滴水\book\main.c(144,11): warning C4477: “printf”: 格式字符串“%f”需要类型“double”的参数，但可变参数 1 拥有了类型“char *”
+C:\Users\asus\Desktop\滴水\book\main.c(144,51): warning C4474: printf: 格式字符串中传递的参数太多
+C:\Users\asus\Desktop\滴水\book\main.c(144,51): message : 占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+C:\Users\asus\Desktop\滴水\book\main.c(167,4): warning C4013: “free”未定义；假设外部返回 int
+C:\Users\asus\Desktop\滴水\book\main.c(194): warning C4715: “DeleteNode”: 不是所有的控件路径都返回值
+  book.vcxproj -> C:\Users\asus\Desktop\滴水\book\Debug\book.exe

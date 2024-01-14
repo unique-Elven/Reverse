@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Users\asus\Desktop\滴水\第五课检测断点cc\FileName.cpp(15,34): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+C:\Users\asus\Desktop\滴水\第五课检测断点cc\FileName.cpp(32,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+  第五课检测断点cc.vcxproj -> C:\Users\asus\Desktop\滴水\第五课检测断点cc\x64\Debug\第五课检测断点cc.exe
