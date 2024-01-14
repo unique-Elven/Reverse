@@ -80,7 +80,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
+=======
+>>>>>>> 25fcf6729ef2afae0f0307f71ffca12fc6281b56
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -97,7 +100,10 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
+=======
+>>>>>>> 25fcf6729ef2afae0f0307f71ffca12fc6281b56
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -110,7 +116,10 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
+=======
+>>>>>>> 25fcf6729ef2afae0f0307f71ffca12fc6281b56
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -127,7 +136,10 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
+=======
+>>>>>>> 25fcf6729ef2afae0f0307f71ffca12fc6281b56
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

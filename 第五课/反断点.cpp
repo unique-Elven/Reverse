@@ -23,7 +23,11 @@ DWORD WINAPI ThreadProc(_In_ LPVOID lpParameter)
 	}
 	return TRUE;
 }
+<<<<<<< HEAD
 int maiiin()
+=======
+int main()
+>>>>>>> 25fcf6729ef2afae0f0307f71ffca12fc6281b56
 {
 	int address = 0x00BF1000;
 	for (int Index = 0; Index < 0x6000; Index++)
