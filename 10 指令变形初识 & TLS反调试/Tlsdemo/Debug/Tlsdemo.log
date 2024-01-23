@@ -1,0 +1,20 @@
+﻿  Tlsdemo1.cpp
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,20): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,20): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,26): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,26): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,32): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,32): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,38): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,38): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,44): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,44): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,50): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,50): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,56): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,56): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,62): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(43,62): warning C4309: “初始化”: 截断常量值
+D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Tlsdemo1.cpp(46,31): warning C4244: “=”: 从“DWORD”转换到“char”，可能丢失数据
+Tlsdemo1.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+  Tlsdemo.vcxproj -> D:\asus\桌面\PROJECT\逆向\逆向\10 指令变形初识 & TLS反调试\Tlsdemo\Debug\Tlsdemo.exe
