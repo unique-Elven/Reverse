@@ -1,0 +1,6 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  MFCReverse.cpp
+  MFCReverseDlg.cpp
+  正在生成代码...
+MFCReverse.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+  MFCReverse.vcxproj -> D:\asus\桌面\PROJECT\逆向\逆向\12 深入浅出易语言消息机制逆向__老班长传的\MFCReverse\Debug\MFCReverse.exe
