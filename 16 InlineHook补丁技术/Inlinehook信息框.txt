@@ -1,0 +1,33 @@
+00401021    83C4 18         add esp,0x18
+00401024    8BE5            mov esp,ebp
+00401026    5D              pop ebp                                  ; 置标题.00436A90
+
+005001A8      00            db 00
+
+779E1650 >  8BFF            mov edi,edi
+779E1652    55              push ebp
+779E1653    8BEC            mov ebp,esp
+779E1655    833D 946CA077 0>cmp dword ptr ds:[0x77A06C94],0x0
+779E165C    74 22           je short user32.779E1680
+779E165E    64:A1 18000000  mov eax,dword ptr fs:[0x18]
+779E1664    BA A471A077     mov edx,user32.77A071A4
+779E1669    8B48 24         mov ecx,dword ptr ds:[eax+0x24]
+779E166C    33C0            xor eax,eax
+779E166E    F0:0FB10A       lock cmpxchg dword ptr ds:[edx],ecx
+779E1672    85C0            test eax,eax
+779E1674    75 0A           jnz short user32.779E1680
+779E1676    C705 006DA077 0>mov dword ptr ds:[0x77A06D00],0x1
+779E1680    6A FF           push -0x1
+779E1682    6A 00           push 0x0
+779E1684    FF75 14         push dword ptr ss:[ebp+0x14]             ; 置标题.krnln_?theApp@@3VCKrnlApp@@A
+779E1687    FF75 10         push dword ptr ss:[ebp+0x10]
+779E168A    FF75 0C         push dword ptr ss:[ebp+0xC]              ; 置标题.krnln_?theApp@@3VCKrnlApp@@A
+779E168D    FF75 08         push dword ptr ss:[ebp+0x8]
+779E1690    E8 3B020000     call user32.MessageBoxTimeoutA
+779E1695    5D              pop ebp
+779E1696    C2 1000         retn 0x10
+
+
+6A 00 6A 00 68 C9 01 50 00 6A 00 E8 98 14 4E 77 83 C4 18 8B E5 E9 66 0E 00 00
+
+

@@ -1,0 +1,30 @@
+mciSendString
+75742160 >  8BFF            mov edi,edi
+
+open 1.mp3 alias mu                      6F 70 65 6E 20 31 2E 6D 70 33 20 61 6C 69 61 73 20 6D 75 00
+
+
+play mu repeat                               70 6C 61 79 20 6D 75 20 72 65 70 65 61 74 00
+
+
+
+0047DFCD      00            db 00 空间不够
+004BB081    0000            add byte ptr ds:[eax],al
+
+
+00419A53  |> \5F            pop edi                                                          ;  025072D0
+00419A54  |.  5E            pop esi                                                          ;  025072D0
+00419A55      5B            pop ebx                                                          ;  025072D0
+00419A56      8BE5          mov esp,ebp
+00419A58      5D            pop ebp                                                          ;  025072D0
+00419A59      C2 0400       retn 0x4
+
+
+调用播放音乐
+6A 00 6A 00 6A 00 68 A9 B0 4B 00 E8 CF 70 28 75 6A 00 6A 00 6A 00 68 C3 B0 4B 00 E8 BF 70 28 75
+EB 31
+
+
+
+jmp 00419A58
+5F 5E 5B 8B E5 E9 7A E9 F5 FF

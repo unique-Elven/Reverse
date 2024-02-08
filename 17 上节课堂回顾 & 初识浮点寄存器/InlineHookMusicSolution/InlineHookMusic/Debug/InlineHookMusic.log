@@ -1,0 +1,12 @@
+﻿D:\VisualStudio2022IDE\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: 面向 Windows XP 的支持已被弃用，将来的 Visual Studio 版本不再提供该支持。请访问 https://go.microsoft.com/fwlink/?linkid=2023588，获取详细信息。
+cl : 命令行 warning D9025: 正在重写“/sdl-”(用“/GS-”)
+  dllmain.cpp
+d:\asus\桌面\project\逆向\逆向\第17课\inlinehookmusicsolution\inlinehookmusic\dllmain.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
+d:\asus\桌面\project\逆向\逆向\第17课\inlinehookmusicsolution\inlinehookmusic\dllmain.cpp(88): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 参见“freopen”的声明
+d:\asus\桌面\project\逆向\逆向\第17课\inlinehookmusicsolution\inlinehookmusic\dllmain.cpp(90): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: 参见“freopen”的声明
+d:\asus\桌面\project\逆向\逆向\第17课\inlinehookmusicsolution\inlinehookmusic\dllmain.cpp(94): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+dllmain.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+  InlineHookMusic.vcxproj -> D:\asus\桌面\PROJECT\逆向\逆向\第17课\InlineHookMusicSolution\Debug\InlineHookMusic.dll
