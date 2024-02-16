@@ -1,0 +1,8 @@
+﻿  ftp_server.cpp
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\ftp_server.cpp(114,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\ftp_server.cpp(133,2): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\ftp_server.cpp(134,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\ftp_server.cpp(135,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\ftp_server.cpp(156,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\ftp_server.cpp(161,23): warning C4018: “>”: 有符号/无符号不匹配
+  Elven_FTP.vcxproj -> D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\Debug\FTP_server.exe

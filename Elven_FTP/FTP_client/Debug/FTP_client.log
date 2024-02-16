@@ -1,0 +1,6 @@
+﻿  ftp_client.cpp
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_client\ftp_client.cpp(54,33): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_client\ftp_client.cpp(102,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_client\ftp_client.cpp(109,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_client\ftp_client.cpp(139,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FTP_client.vcxproj -> D:\asus\桌面\PROJECT\逆向\逆向\Elven_FTP\FTP_server\Debug\FTP_client.exe
